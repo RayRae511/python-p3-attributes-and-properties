@@ -34,4 +34,9 @@ class Person:
         if val in APPROVED_JOBS:
             self._job = val
         else:
-            print("Job must be in list of approved breeds")
+            print("Job must be in list of approved jobs")
+
+name = Person()
+name.name = "Ray"
+name.job = "Gaming"
+#Output: "Job must be in list of approved jobs"
